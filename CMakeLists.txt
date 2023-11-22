@@ -5,7 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(task1
         LR1/part1/main.c
-        LR1/part1/main.c)
+        LR1/part1/main.c
+        )
 
 add_executable(task2
         LR1/part2/main.c
@@ -19,3 +20,8 @@ add_executable(task3ArrayList
 add_executable(task4
         LR1/part4/main.c
         LR1/part4/main.c)
+
+add_executable(Pr1
+        Pr1/main.c
+        Pr1/main.c
+        Pr1/main.c)
