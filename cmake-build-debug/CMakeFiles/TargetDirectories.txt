@@ -1,0 +1,6 @@
+C:/OS/cmake-build-debug/CMakeFiles/task1.dir
+C:/OS/cmake-build-debug/CMakeFiles/task2.dir
+C:/OS/cmake-build-debug/CMakeFiles/task3ArrayList.dir
+C:/OS/cmake-build-debug/CMakeFiles/task4.dir
+C:/OS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/OS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
