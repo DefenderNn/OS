@@ -19,5 +19,12 @@ int main(int argc, char *argv[]) {
 
     printf("Environment Variable Set: %s=%s\n", variable_name, getenv(variable_name));
 
+    extern char** environ;
+
+    printf("Environment Variables:\n");
+    for (char **env = environ; *env != NULL; env++) {
+        printf("%s\n", *env);
+    }
+
     return 0;
 }

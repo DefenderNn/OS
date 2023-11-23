@@ -39,6 +39,14 @@ void set_variable(const char *variable, const char *value) {
     } else {
         perror("Error setting environment variable");
     }
+
+    extern char** environ;
+
+    printf("Environment Variables:\n");
+    for (char **env = environ; *env != NULL; env++) {
+        printf("%s\n", *env);
+    }
+
 }
 
 void assign_variable(const char *variable, const char *value) {
@@ -56,6 +64,14 @@ void assign_variable(const char *variable, const char *value) {
     } else {
         perror("Error assigning environment variable");
     }
+
+    extern char** environ;
+
+    printf("Environment Variables:\n");
+    for (char **env = environ; *env != NULL; env++) {
+        printf("%s\n", *env);
+    }
+
 }
 
 void delete_variable(const char *variable) {
@@ -64,6 +80,14 @@ void delete_variable(const char *variable) {
     } else {
         perror("Error deleting environment variable");
     }
+
+    extern char** environ;
+
+    printf("Environment Variables:\n");
+    for (char **env = environ; *env != NULL; env++) {
+        printf("%s\n", *env);
+    }
+
 }
 
 void clear_environment() {
@@ -71,6 +95,13 @@ void clear_environment() {
         printf("Environment Cleared.\n");
     } else {
         perror("Error clearing environment");
+    }
+
+    extern char** environ;
+
+    printf("Environment Variables:\n");
+    for (char **env = environ; *env != NULL; env++) {
+        printf("%s\n", *env);
     }
 }
 
@@ -126,6 +157,7 @@ int main(int argc, char *argv[]) {
     if (variable != NULL) {
         assign_variable(variable, value);
     }
+
 
     return 0;
 }

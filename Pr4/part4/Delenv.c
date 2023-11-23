@@ -7,6 +7,12 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+    extern char** environ;
+    printf("Current Environment:\n");
+    for (char **env = environ; *env != NULL; env++) {
+        printf("%s\n", *env);
+    }
+    printf("Deleting Env\n");
     if (argc == 2) {
         const char *variable_name = argv[1];
         int unsetenv_result = unsetenv(variable_name);
