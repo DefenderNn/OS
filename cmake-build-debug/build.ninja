@@ -214,35 +214,35 @@ build Pr1.exe: C_EXECUTABLE_LINKER__Pr1_Debug CMakeFiles/Pr1.dir/Pr1/main.c.obj
 
 build cmake_object_order_depends_target_Pr3: phony || CMakeFiles/Pr3.dir
 
-build CMakeFiles/Pr3.dir/Pr3/Array.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/Array.c || cmake_object_order_depends_target_Pr3
-  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\Array.c.obj.d
+build CMakeFiles/Pr3.dir/Pr3/part1/Array.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/part1/Array.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\part1\Array.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Pr3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3\part1
 
-build CMakeFiles/Pr3.dir/Pr3/ArrayList.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/ArrayList.c || cmake_object_order_depends_target_Pr3
-  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\ArrayList.c.obj.d
+build CMakeFiles/Pr3.dir/Pr3/part2/ArrayList.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/part2/ArrayList.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\part2\ArrayList.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Pr3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3\part2
 
-build CMakeFiles/Pr3.dir/Pr3/DotsMassTransfer.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/DotsMassTransfer.c || cmake_object_order_depends_target_Pr3
-  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\DotsMassTransfer.c.obj.d
+build CMakeFiles/Pr3.dir/Pr3/part3/DotsMassTransfer.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/part3/DotsMassTransfer.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\part3\DotsMassTransfer.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Pr3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3\part3
 
-build CMakeFiles/Pr3.dir/Pr3/LinkedList.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/LinkedList.c || cmake_object_order_depends_target_Pr3
-  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\LinkedList.c.obj.d
+build CMakeFiles/Pr3.dir/Pr3/part4/LinkedList.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/part4/LinkedList.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\part4\LinkedList.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Pr3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3\part4
 
-build CMakeFiles/Pr3.dir/Pr3/Matrix.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/Matrix.c || cmake_object_order_depends_target_Pr3
-  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\Matrix.c.obj.d
+build CMakeFiles/Pr3.dir/Pr3/part5/OneDimensional.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/part5/OneDimensional.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\part5\OneDimensional.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Pr3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3\part5
 
 
 # =============================================================================
@@ -252,7 +252,7 @@ build CMakeFiles/Pr3.dir/Pr3/Matrix.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/O
 #############################################
 # Link the executable Pr3.exe
 
-build Pr3.exe: C_EXECUTABLE_LINKER__Pr3_Debug CMakeFiles/Pr3.dir/Pr3/Array.c.obj CMakeFiles/Pr3.dir/Pr3/ArrayList.c.obj CMakeFiles/Pr3.dir/Pr3/DotsMassTransfer.c.obj CMakeFiles/Pr3.dir/Pr3/LinkedList.c.obj CMakeFiles/Pr3.dir/Pr3/Matrix.c.obj
+build Pr3.exe: C_EXECUTABLE_LINKER__Pr3_Debug CMakeFiles/Pr3.dir/Pr3/part1/Array.c.obj CMakeFiles/Pr3.dir/Pr3/part2/ArrayList.c.obj CMakeFiles/Pr3.dir/Pr3/part3/DotsMassTransfer.c.obj CMakeFiles/Pr3.dir/Pr3/part4/LinkedList.c.obj CMakeFiles/Pr3.dir/Pr3/part5/OneDimensional.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pr3.dir

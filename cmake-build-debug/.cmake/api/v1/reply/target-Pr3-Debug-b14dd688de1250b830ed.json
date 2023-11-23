@@ -106,31 +106,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Pr3/Array.c",
+			"path" : "Pr3/part1/Array.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Pr3/ArrayList.c",
+			"path" : "Pr3/part2/ArrayList.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Pr3/DotsMassTransfer.c",
+			"path" : "Pr3/part3/DotsMassTransfer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Pr3/LinkedList.c",
+			"path" : "Pr3/part4/LinkedList.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Pr3/Matrix.c",
+			"path" : "Pr3/part5/OneDimensional.c",
 			"sourceGroupIndex" : 0
 		}
 	],
