@@ -262,6 +262,39 @@ build Pr3.exe: C_EXECUTABLE_LINKER__Pr3_Debug CMakeFiles/Pr3.dir/Pr3/part1/Array
   TARGET_IMPLIB = libPr3.dll.a
   TARGET_PDB = Pr3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Pr2
+
+
+#############################################
+# Order-only phony target for Pr2
+
+build cmake_object_order_depends_target_Pr2: phony || CMakeFiles/Pr2.dir
+
+build CMakeFiles/Pr2.dir/Pr2/Main.c.obj: C_COMPILER__Pr2_unscanned_Debug C$:/OS/Pr2/Main.c || cmake_object_order_depends_target_Pr2
+  DEP_FILE = CMakeFiles\Pr2.dir\Pr2\Main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr2.dir\Pr2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pr2
+
+
+#############################################
+# Link the executable Pr2.exe
+
+build Pr2.exe: C_EXECUTABLE_LINKER__Pr2_Debug CMakeFiles/Pr2.dir/Pr2/Main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pr2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pr2.exe
+  TARGET_IMPLIB = libPr2.dll.a
+  TARGET_PDB = Pr2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -290,6 +323,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Pr1: phony Pr1.exe
 
+build Pr2: phony Pr2.exe
+
 build Pr3: phony Pr3.exe
 
 build task1: phony task1.exe
@@ -308,7 +343,7 @@ build task4: phony task4.exe
 #############################################
 # Folder: C:/OS/cmake-build-debug
 
-build all: phony task1.exe task2.exe task3ArrayList.exe task4.exe Pr1.exe Pr3.exe
+build all: phony task1.exe task2.exe task3ArrayList.exe task4.exe Pr1.exe Pr3.exe Pr2.exe
 
 # =============================================================================
 # Built-in targets

@@ -32,3 +32,6 @@ add_executable(Pr3
         Pr3/part3/DotsMassTransfer.c
         Pr3/part4/LinkedList.c
         Pr3/part5/OneDimensional.c)
+
+add_executable(Pr2
+        Pr2/Main.c)
