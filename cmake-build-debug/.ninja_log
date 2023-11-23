@@ -1,11 +1,11 @@
 # ninja log v5
 3	106	7223922506950728	CMakeFiles/task1.dir/LR1/part1/main.c.obj	df5e0b160f1479f
 107	211	7223922507961650	task1.exe	fa0f57abcbf873bf
+3	116	7223984834959357	CMakeFiles/task2.dir/LR1/part2/main.c.obj	ce9024ba902b4f9f
+116	231	7223984836080378	task2.exe	23553a515b48bc75
 4	115	7223949909460522	CMakeFiles/task3ArrayList.dir/LR1/part3/main.c.obj	e790dbb020d2c9ed
-94	196	7223940378320324	task2.exe	23553a515b48bc75
-3	94	7223940377329422	CMakeFiles/task2.dir/LR1/part2/main.c.obj	ce9024ba902b4f9f
 7	112	7223923985536542	CMakeFiles/task2.dir/LR1/part1/main.c.obj	fa33420fccbfdad6
-2	239	7223967809212561	build.ninja	197871f93aefec11
+2	292	7224042768880501	build.ninja	197871f93aefec11
 3	104	7223950698490421	task3ArrayList.exe	c4ace807d8a335bf
 10	140	7223949909490553	CMakeFiles/task3ArrayList.dir/LR1/part4/main.c.obj	66ec8bb6845479bf
 3	101	7223954077823732	CMakeFiles/task4.dir/LR1/part4/main.c.obj	34c334aec80a1525

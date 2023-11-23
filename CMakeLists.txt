@@ -25,3 +25,10 @@ add_executable(Pr1
         Pr1/main.c
         Pr1/main.c
         Pr1/main.c)
+
+add_executable(Pr3
+        Pr3/part1/Array.c
+        Pr3/part2/ArrayList.c
+        Pr3/part3/DotsMassTransfer.c
+        Pr3/part4/LinkedList.c
+        Pr3/part5/OneDimensional.c)

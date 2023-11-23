@@ -55,12 +55,6 @@ build CMakeFiles/task1.dir/LR1/part1/main.c.obj: C_COMPILER__task1_unscanned_Deb
   OBJECT_DIR = CMakeFiles\task1.dir
   OBJECT_FILE_DIR = CMakeFiles\task1.dir\LR1\part1
 
-build CMakeFiles/task1.dir/task1/main.c.obj: C_COMPILER__task1_unscanned_Debug C$:/OS/task1/main.c || cmake_object_order_depends_target_task1
-  DEP_FILE = CMakeFiles\task1.dir\task1\main.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\task1.dir
-  OBJECT_FILE_DIR = CMakeFiles\task1.dir\task1
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target task1
@@ -69,7 +63,7 @@ build CMakeFiles/task1.dir/task1/main.c.obj: C_COMPILER__task1_unscanned_Debug C
 #############################################
 # Link the executable task1.exe
 
-build task1.exe: C_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/LR1/part1/main.c.obj CMakeFiles/task1.dir/task1/main.c.obj
+build task1.exe: C_EXECUTABLE_LINKER__task1_Debug CMakeFiles/task1.dir/LR1/part1/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\task1.dir
@@ -178,6 +172,96 @@ build task4.exe: C_EXECUTABLE_LINKER__task4_Debug CMakeFiles/task4.dir/LR1/part4
   TARGET_IMPLIB = libtask4.dll.a
   TARGET_PDB = task4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Pr1
+
+
+#############################################
+# Order-only phony target for Pr1
+
+build cmake_object_order_depends_target_Pr1: phony || CMakeFiles/Pr1.dir
+
+build CMakeFiles/Pr1.dir/Pr1/main.c.obj: C_COMPILER__Pr1_unscanned_Debug C$:/OS/Pr1/main.c || cmake_object_order_depends_target_Pr1
+  DEP_FILE = CMakeFiles\Pr1.dir\Pr1\main.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr1.dir\Pr1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pr1
+
+
+#############################################
+# Link the executable Pr1.exe
+
+build Pr1.exe: C_EXECUTABLE_LINKER__Pr1_Debug CMakeFiles/Pr1.dir/Pr1/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pr1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pr1.exe
+  TARGET_IMPLIB = libPr1.dll.a
+  TARGET_PDB = Pr1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pr3
+
+
+#############################################
+# Order-only phony target for Pr3
+
+build cmake_object_order_depends_target_Pr3: phony || CMakeFiles/Pr3.dir
+
+build CMakeFiles/Pr3.dir/Pr3/Array.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/Array.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\Array.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+
+build CMakeFiles/Pr3.dir/Pr3/ArrayList.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/ArrayList.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\ArrayList.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+
+build CMakeFiles/Pr3.dir/Pr3/DotsMassTransfer.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/DotsMassTransfer.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\DotsMassTransfer.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+
+build CMakeFiles/Pr3.dir/Pr3/LinkedList.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/LinkedList.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\LinkedList.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+
+build CMakeFiles/Pr3.dir/Pr3/Matrix.c.obj: C_COMPILER__Pr3_unscanned_Debug C$:/OS/Pr3/Matrix.c || cmake_object_order_depends_target_Pr3
+  DEP_FILE = CMakeFiles\Pr3.dir\Pr3\Matrix.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr3.dir\Pr3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pr3
+
+
+#############################################
+# Link the executable Pr3.exe
+
+build Pr3.exe: C_EXECUTABLE_LINKER__Pr3_Debug CMakeFiles/Pr3.dir/Pr3/Array.c.obj CMakeFiles/Pr3.dir/Pr3/ArrayList.c.obj CMakeFiles/Pr3.dir/Pr3/DotsMassTransfer.c.obj CMakeFiles/Pr3.dir/Pr3/LinkedList.c.obj CMakeFiles/Pr3.dir/Pr3/Matrix.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pr3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pr3.exe
+  TARGET_IMPLIB = libPr3.dll.a
+  TARGET_PDB = Pr3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -204,6 +288,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Pr1: phony Pr1.exe
+
+build Pr3: phony Pr3.exe
+
 build task1: phony task1.exe
 
 build task2: phony task2.exe
@@ -220,7 +308,7 @@ build task4: phony task4.exe
 #############################################
 # Folder: C:/OS/cmake-build-debug
 
-build all: phony task1.exe task2.exe task3ArrayList.exe task4.exe
+build all: phony task1.exe task2.exe task3ArrayList.exe task4.exe Pr1.exe Pr3.exe
 
 # =============================================================================
 # Built-in targets
