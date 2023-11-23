@@ -38,4 +38,9 @@ add_executable(Pr2
 
 add_executable(Pr4
         Pr4/part1/EnvironmentVariables.c
-        Pr4/part2/Search.c)
+        Pr4/part2/Search.c
+        Pr4/part3/Setenv.c
+        Pr4/part4/Delenv.c
+        Pr4/part5/Getinf.c
+        Pr4/part6/Getinfc.c
+        Pr4/part7/environ.c)

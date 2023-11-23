@@ -316,6 +316,36 @@ build CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj: C_COMPILER__Pr4_unscanned_Debug
   OBJECT_DIR = CMakeFiles\Pr4.dir
   OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part2
 
+build CMakeFiles/Pr4.dir/Pr4/part3/Setenv.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part3/Setenv.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part3\Setenv.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part3
+
+build CMakeFiles/Pr4.dir/Pr4/part4/Delenv.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part4/Delenv.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part4\Delenv.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part4
+
+build CMakeFiles/Pr4.dir/Pr4/part5/Getinf.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part5/Getinf.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part5\Getinf.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part5
+
+build CMakeFiles/Pr4.dir/Pr4/part6/Getinfc.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part6/Getinfc.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part6\Getinfc.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part6
+
+build CMakeFiles/Pr4.dir/Pr4/part7/environ.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part7/environ.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part7\environ.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part7
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pr4
@@ -324,7 +354,7 @@ build CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj: C_COMPILER__Pr4_unscanned_Debug
 #############################################
 # Link the executable Pr4.exe
 
-build Pr4.exe: C_EXECUTABLE_LINKER__Pr4_Debug CMakeFiles/Pr4.dir/Pr4/part1/EnvironmentVariables.c.obj CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj
+build Pr4.exe: C_EXECUTABLE_LINKER__Pr4_Debug CMakeFiles/Pr4.dir/Pr4/part1/EnvironmentVariables.c.obj CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj CMakeFiles/Pr4.dir/Pr4/part3/Setenv.c.obj CMakeFiles/Pr4.dir/Pr4/part4/Delenv.c.obj CMakeFiles/Pr4.dir/Pr4/part5/Getinf.c.obj CMakeFiles/Pr4.dir/Pr4/part6/Getinfc.c.obj CMakeFiles/Pr4.dir/Pr4/part7/environ.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pr4.dir
