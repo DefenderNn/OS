@@ -35,3 +35,7 @@ add_executable(Pr3
 
 add_executable(Pr2
         Pr2/Main.c)
+
+add_executable(Pr4
+        Pr4/part1/EnvironmentVariables.c
+        Pr4/part2/Search.c)

@@ -295,6 +295,45 @@ build Pr2.exe: C_EXECUTABLE_LINKER__Pr2_Debug CMakeFiles/Pr2.dir/Pr2/Main.c.obj
   TARGET_IMPLIB = libPr2.dll.a
   TARGET_PDB = Pr2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Pr4
+
+
+#############################################
+# Order-only phony target for Pr4
+
+build cmake_object_order_depends_target_Pr4: phony || CMakeFiles/Pr4.dir
+
+build CMakeFiles/Pr4.dir/Pr4/part1/EnvironmentVariables.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part1/EnvironmentVariables.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part1\EnvironmentVariables.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part1
+
+build CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj: C_COMPILER__Pr4_unscanned_Debug C$:/OS/Pr4/part2/Search.c || cmake_object_order_depends_target_Pr4
+  DEP_FILE = CMakeFiles\Pr4.dir\Pr4\part2\Search.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pr4.dir\Pr4\part2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pr4
+
+
+#############################################
+# Link the executable Pr4.exe
+
+build Pr4.exe: C_EXECUTABLE_LINKER__Pr4_Debug CMakeFiles/Pr4.dir/Pr4/part1/EnvironmentVariables.c.obj CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pr4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pr4.exe
+  TARGET_IMPLIB = libPr4.dll.a
+  TARGET_PDB = Pr4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -327,6 +366,8 @@ build Pr2: phony Pr2.exe
 
 build Pr3: phony Pr3.exe
 
+build Pr4: phony Pr4.exe
+
 build task1: phony task1.exe
 
 build task2: phony task2.exe
@@ -343,7 +384,7 @@ build task4: phony task4.exe
 #############################################
 # Folder: C:/OS/cmake-build-debug
 
-build all: phony task1.exe task2.exe task3ArrayList.exe task4.exe Pr1.exe Pr3.exe Pr2.exe
+build all: phony task1.exe task2.exe task3ArrayList.exe task4.exe Pr1.exe Pr3.exe Pr2.exe Pr4.exe
 
 # =============================================================================
 # Built-in targets

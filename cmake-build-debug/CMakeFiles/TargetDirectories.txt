@@ -5,5 +5,6 @@ C:/OS/cmake-build-debug/CMakeFiles/task4.dir
 C:/OS/cmake-build-debug/CMakeFiles/Pr1.dir
 C:/OS/cmake-build-debug/CMakeFiles/Pr3.dir
 C:/OS/cmake-build-debug/CMakeFiles/Pr2.dir
+C:/OS/cmake-build-debug/CMakeFiles/Pr4.dir
 C:/OS/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/OS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
