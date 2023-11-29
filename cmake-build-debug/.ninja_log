@@ -16,3 +16,12 @@
 102	215	7224101125215110	Pr2.exe	532311505f1af3dd
 8	89	7224119748944168	CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj	fe59eace5e67182
 90	188	7224118093581810	Pr4.exe	47e5afdd729713e5
+3	785	7225286470972563	CMakeFiles/Pr4.dir/Pr4/part1/EnvironmentVariables.c.obj	2a1cbe4081f7dd1c
+11	786	7225286470972563	CMakeFiles/Pr4.dir/Pr4/part2/Search.c.obj	fe59eace5e67182
+0	175	7225286794642970	CMakeFiles/Pr1.dir/Pr1/main.c.obj	9023c677c113d884
+175	292	7225286795774010	Pr1.exe	fc68dfda99fd898d
+21	175	7225297073292444	CMakeFiles/Pr3.dir/Pr3/part4/LinkedList.c.obj	fb9dc14627763ee9
+14	189	7225297073432583	CMakeFiles/Pr3.dir/Pr3/part3/DotsMassTransfer.c.obj	ccd1299ae6b9e663
+1	238	7225297073933034	CMakeFiles/Pr3.dir/Pr3/part2/ArrayList.c.obj	37d7c44092e7d3a6
+28	285	7225297074413462	CMakeFiles/Pr3.dir/Pr3/part5/OneDimensional.c.obj	1d805b90b5a3c664
+8	286	7225297074413462	CMakeFiles/Pr3.dir/Pr3/part1/Array.c.obj	3c6dddf7b8a3d1c5

@@ -69,7 +69,7 @@ void set(struct ArrayList* list, int index, int item) {
 int get(struct ArrayList* list, int index) {
     if (index < 0 || index >= list->size) {
         printf("Invalid index for getting.\n");
-        return -1; // Assuming -1 is not a valid value in the list
+        return -1;
     }
 
     return list->array[index];
