@@ -12,7 +12,6 @@ pid_t child_pid;
 void signal_handler(int sig) {
     if (sig == SIGUSR2) {
         printf("Received sum from child: %d\n", *shm);
-        printf("Enter next data (-1 to exit): ");
     }
 }
 
@@ -38,22 +37,24 @@ int main() {
     } else if (child_pid == 0) {
         char shmid_str[10];
         sprintf(shmid_str, "%d", shmid);
-        execl("child", "child", shmid_str, NULL);
+        execl("child_program", "child", shmid_str, NULL);
         perror("execl failed");
         exit(1);
     } else {
-        int data;
+        int data1, data2;
         do {
-            printf("Enter an integer (-1 to exit): ");
-            scanf("%d", &data);
-            *shm = data;
-            kill(child_pid, SIGUSR1);
+            printf("Enter two integers (Ctrl + C to exit): ");
+            scanf("%d %d", &data1, &data2);
 
-            if (data != -1) {
+            if (data1 != -1 && data2 != -1) {
+                shm[0] = data1;
+                shm[1] = data2;
+                kill(child_pid, SIGUSR1);
+
                 pause();
             }
-        } while (data != -1);
-
+        } while (data1 != -1 && data2 != -1);
+        
         wait(NULL);
         shmdt(shm);
         shmctl(shmid, IPC_RMID, NULL);

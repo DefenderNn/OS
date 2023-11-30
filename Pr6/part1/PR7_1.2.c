@@ -9,8 +9,8 @@ int shmid;
 
 void signal_handler(int sig) {
     if (sig == SIGUSR1) {
-        printf("Child received data: %d\n", *shm);
-        *shm = *shm + 5;
+        int result = shm[0] + shm[1];
+        *shm = result;
         kill(getppid(), SIGUSR2);
     }
 }
